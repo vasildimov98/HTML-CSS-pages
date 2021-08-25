@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:wght@500&display=swap');
+html {
+    font-family: Lato, sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.module {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    max-width: 585px;
+    height: 377px;
+    margin: 100px auto;
+    border-radius: 12px;
+}
+
+.module-header {
+    background: #FFA000;
+    position: relative;
+    height: 125px;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.module-main {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.module-header::before {
+    content: '';
+    background: url('https://softuni.bg/Content/images/curriculum/entry-module-header.svg') no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 90px;
+    height: 90px;
+}
+
+.module-header::after {
+    content: 'FREE';
+    background: linear-gradient(90.03deg, #46b661 0%, #029a3c 100%);
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 8px 16px;
+    width: 60px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.module-title {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0;
+}
+
+.module-credits {
+    padding-bottom: 20px;
+}
+
+.module-credits::after {
+    content: '|';
+    padding: 0 5px;
+    position: relative;
+    left: 2px;
+    bottom: 1px;
+}
+
+.module-description {
+    line-height: 20px;
+    font-weight: 400;
+    padding: 5px 20px;
+    margin: 20px 15px;
+    font-size: 16px;
+}
+
+.module-level {
+    display: block;
+    padding: 12px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.module-level:hover {
+    color: #FFA000;
+}
+
+.module-enroll-btn {
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    background: #FFA000;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 14px 32px;
+    font-weight: bold;
+}
