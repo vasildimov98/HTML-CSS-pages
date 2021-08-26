@@ -1,0 +1,80 @@
+header {
+    background-color: #234465;
+}
+
+.logo-holder-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dropdown-hover fa-caret-right,
+.dropdown-hover .logo-link {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.dropdown-hover i.fa {
+    position: relative;
+    bottom: 9px;
+    color: white;
+}
+
+.dropdown-hover:hover .hover-dropdown-content {
+    display: block;
+}
+
+.dropdown-hover i.fa-caret-down {
+    display: none;
+}
+
+.dropdown-hover:hover .fa-caret-right,
+.dropdown-hover:hover .fa-caret-down {
+    display: none;
+}
+
+.dropdown-hover:hover .fa-caret-down {
+    display: inline-block;
+    color: #FFA000;
+}
+
+.dropdown-hover {
+    position: relative;
+    min-width: 150px;
+    margin-left: 3px;
+}
+
+.logo-link-image {
+    min-width: 150px;
+}
+
+.hover-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 33px;
+    top: 68px;
+    min-width: inherit;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 33%);
+    z-index: 100;
+    color: white;
+}
+
+.hover-dropdown-content a {
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.hover-dropdown-content a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    opacity: .2;
+    background-color: #fff;
+}
