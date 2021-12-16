@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:wght@500&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body,
+*,
+*:after,
+*:before {
+    font-family: 'Lato', sans-serif;
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.module-heading,
+.module-resume,
+.module-price-info {
+    text-align: center;
+}
+
+.module-resume,
+.module-price-info {
+    padding: 27px 15px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.module-heading,
+.module-prices-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    max-width: 1400px;
+    margin: 120px auto;
+}
+
+.main .module {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.module {
+    box-shadow: 1px -1px 13px -6px rgba(0, 0, 0, 0.72);
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.module-resume {
+    padding-bottom: 0;
+}
+
+.module-price-info {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.module-prices-heading,
+.module-prices-description {
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.onsite-price,
+.online-price {
+    display: inline-block;
+}
+
+.onsite-price {
+    border-right: 1px solid white;
+}
+
+.module-prices {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 15px 25px;
+}
+
+.fundamentals .module-prices {
+    background: rgb(76, 108, 137);
+    background: linear-gradient(90deg, rgba(76, 108, 137, 1) 0%, rgba(86, 129, 168, 1) 50%, rgba(98, 154, 207, 1) 100%);
+}
+
+.professional .module-prices {
+    background: rgb(75, 56, 165);
+    background: linear-gradient(90deg, rgba(75, 56, 165, 1) 0%, rgba(104, 87, 192, 1) 50%, rgba(140, 125, 225, 1) 100%);
+}

@@ -1,0 +1,196 @@
+/* Global */
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+ul,
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark {
+    background: #35424A;
+    padding: 15px;
+    color: #fff;
+}
+
+
+/*Header*/
+
+header {
+    background: #35424A;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px #E8491D solid;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header h1 {
+    float: left;
+}
+
+header .highlight,
+header .current {
+    color: #E8491D;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+
+/*Showcase*/
+
+#showcase {
+    min-height: 400px;
+    background: url('/images/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h2 {
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/*Newsletter*/
+
+#newsletter {
+    background: #35424A;
+    padding: 25px 0;
+    color: #fff;
+}
+
+#newsletter h2 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+/*Boxes*/
+
+main {
+    margin-top: 20px;
+}
+
+.boxes {
+    display: inline;
+}
+
+.boxes .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.box img {
+    width: 90px;
+}
+
+
+/*Main-Col*/
+
+main .main-col {
+    float: left;
+    width: 65%;
+}
+
+
+/*Sidebar*/
+
+main aside {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside.aside-col .quote .main-input,
+aside.aside-col .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+aside.aside-col .quote textarea {
+    resize: none;
+}
+
+.aside-col label {
+    display: block;
+}
+
+
+/*Services*/
+
+.service {
+    background: #E6E6E6;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+
+/*Footer*/
+
+footer {
+    padding: 20px;
+    color: #fff;
+    background: #E8491D;
+    text-align: center;
+    margin-top: 25px;
+}
